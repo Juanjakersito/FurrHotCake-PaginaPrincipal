@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 60, 160);
+    margin-inline: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+header .boton_hamburgesa{
+    display: none;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul a{
+    text-decoration: none;
+    margin-inline: 20px;
+
+}
+
+header ul li{
+list-style: none;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+header ul li span{
+    color: white;
+    font-weight: 800;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+
+header .logo span{
+    font-family: 'Paw Wow Block';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+header .Contenedor_Usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Paw Wow Block';
+    font-weight: normal;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+header .Contenedor_Usuario span{
+    margin-right: 10px;
+}
+
+header .Contenedor_Usuario{
+}
+
+header .Contenedor_Usuario img{
+    border-radius: 50%;
+    width: 80px;
+    margin: 5px;
+    border: solid 3px rgb(255, 166, 0);
+}

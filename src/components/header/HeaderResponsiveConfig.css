@@ -1,0 +1,54 @@
+@media screen and (max-width:1180px) {
+    header .logo{
+        display: none;
+    }
+}
+@media screen and (max-width:975px) {
+    header .Contenedor_Usuario span{
+        display: none;
+    }
+}
+@media screen and (max-width:750px) {
+    header .Contenedor_Usuario{
+        display: none;
+    }
+    header{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:660px){
+    header .boton_hamburgesa{
+    display: block;
+    align-items: center;
+    margin-right: 15px;
+    }
+    header .logo{
+        display: block;
+    }
+   header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+   }
+   header nav{
+    display: none;
+    width: 100%;
+    background-color: rgb(255, 136, 0);
+   }
+
+
+   header nav.nav_activa{
+    display: block;
+   }
+
+
+
+   header nav ul{
+    flex-direction: column;
+   }
+   header nav ul li{
+    margin-block: 10px;
+   }
+}
