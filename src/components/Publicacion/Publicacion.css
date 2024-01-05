@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.contenedor_publicacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgb(37, 30, 30);
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    font-family: 'Mukta', sans-serif;
+
+}
+.contenedor_publicacion .contenedor_foto_perfil{
+    margin-right: 10px;
+}
+
+.contenedor_publicacion .contenedor_foto_perfil img{
+    width: 40px;
+    border-radius: 50%;
+    border: solid 1px orange;
+}
+
+.contenedor_publicacion .info_publicacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.contenedor_publicacion .texto_publicacion{
+    color: white;
+}

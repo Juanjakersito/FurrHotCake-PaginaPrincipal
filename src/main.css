@@ -9,4 +9,12 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-image: url('./assets/walpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
