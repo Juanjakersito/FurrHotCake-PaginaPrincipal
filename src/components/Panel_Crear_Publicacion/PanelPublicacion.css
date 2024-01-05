@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+.contenedor_sup_panel{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_panel{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgb(37, 30, 30);
+    border-radius: 10px;
+    padding: 5px;
+width: 400px;
+}
+
+.contenedor_panel .contenedor_foto_perfil{
+    margin-right: 10px;
+}
+ 
+.contenedor_panel .contenedor_foto_perfil img{
+    width: 40px;
+    border-radius: 50%;
+    border: solid 1px orange;
+}
+
+.contenedor_panel .contenedor_formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_panel .contenedor_formulario textarea{
+    resize: none;
+    font-family: 'Mukta', sans-serif;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+outline: none;
+
+}
+.contenedor_panel .contenedor_formulario select {
+    padding: 3px;
+    border-radius: 20px;
+    max-width: 20%;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    font-family: 'Mukta', sans-serif;
+    transition: 0.3s;
+background-color: rgb(223, 60, 160);
+color: white;
+}
+
+
+.contenedor_panel .contenedor_formulario .botones_panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.contenedor_panel .contenedor_formulario .botones_panel button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border: none;
+   border-radius: 15px;
+   width: 80px;
+   height: 25px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background: rgb(223, 60, 160);
+}
+.contenedor_panel .contenedor_formulario .botones_panel button .btn_publicar{
+    margin-left: 4px;
+}
+
+.contenedor_panel .contenedor_formulario .botones_panel .btn{
+    cursor: pointer;
+}
